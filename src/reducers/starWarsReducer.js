@@ -1,6 +1,6 @@
 import { FETCHING, SUCCESS, FAILURE } from "../actions";
 const initialState = {
-  characters: null,
+  characters: [],
   fetching: false,
   error: ''
   // Array characters, Boolean fetching, null error.
